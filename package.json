@@ -1,0 +1,30 @@
+{
+  "name": "intteam.co.kr",
+  "version": "1.0.0",
+  "description": "int Official Homepage",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chul0721/intteam.co.kr.git"
+  },
+  "keywords": [
+    "int",
+    "web",
+    "homepage",
+    "intteam",
+    "intteam.co.kr"
+  ],
+  "author": "int",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chul0721/intteam.co.kr/issues"
+  },
+  "homepage": "https://github.com/chul0721/intteam.co.kr#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}

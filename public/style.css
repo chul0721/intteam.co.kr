@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+}
+
+.nav_bar {
+    margin-bottom: 0px;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    /* width: 100% */
+    left: 0;
+    right: 0;
+    display: flex;
+}
+
+.nav_logo {
+    height: auto;
+    width: 200px;
+}
+
+.main {
+    padding-bottom: 800px;
+}
+
+body{
+    margin: 0px;
+}
+
+#carousel_section{
+    width: 100%;
+}
+
+#carousel_section > ul{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#carousel_section > ul > li{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#carousel_section > ul > li >img{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide_text {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.phrase {
+    font-style: italic;
+    opacity: 50%;
+}
+
+*{margin:0;padding:0;}
+body, html{width:100%;height: 100%;overflow: hidden;}
+    .header{
+        width: 100%;
+        height: 50px;
+        background: #ddd;
+    }
+    .menu_btn{
+        text-align: right;
+        padding: 10px;
+    }
+    .menu_bg{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+        position: absolute;
+        top:0;
+        display: none;
+    }
+    .sidebar_menu{
+        width: 50%;
+        height: 100%;
+        background: #e98282;
+        position: absolute;
+        top:0;
+        right: -50%;
+        
+    }
+    .close_btn{
+        width: 25px;
+        height: 25px;
+        margin:10px;
+    }
+    .close_btn > a{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .menu_wrap{
+        list-style: none;
+        padding: 20px 20px;   
+    }
+    .menu_wrap li a{
+        color: #fff;
+        text-decoration: none;
+    }
